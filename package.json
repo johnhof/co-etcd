@@ -1,0 +1,23 @@
+{
+  "name": "koa-etcd",
+  "version": "1.0.0",
+  "description": "Wrapper for node-etcd",
+  "main": "lib/etcd",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johnhof/koa-etcd.git"
+  },
+  "keywords": [
+    "etcd",
+    "koa"
+  ],
+  "author": "John Hofrichter",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/johnhof/koa-etcd/issues"
+  },
+  "homepage": "https://github.com/johnhof/koa-etcd#readme"
+}
