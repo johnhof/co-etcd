@@ -1,2 +1,2 @@
-Koa Etcd
+Co Etcd
 ========
