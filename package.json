@@ -2,9 +2,10 @@
   "name": "koa-etcd",
   "version": "1.0.0",
   "description": "Wrapper for node-etcd",
-  "main": "lib/etcd",
+  "main": "lib/CoEtcd",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "example": "node example/simple.js"
   },
   "repository": {
     "type": "git",
@@ -19,5 +20,13 @@
   "bugs": {
     "url": "https://github.com/johnhof/koa-etcd/issues"
   },
-  "homepage": "https://github.com/johnhof/koa-etcd#readme"
+  "homepage": "https://github.com/johnhof/koa-etcd#readme",
+  "dependencies": {
+    "lodash": "^3.10.1",
+    "node-etcd": "^4.2.1",
+    "thenify": "^3.1.1"
+  },
+  "devDependencies": {
+    "co": "^4.6.0"
+  }
 }

@@ -1,0 +1,16 @@
+
+### Node ###
+node_modules
+# Logs
+*.log
+*.db
+
+
+### OSX ###
+.DS_Store
+.AppleDouble
+.LSOverride
+
+### Misc ###
+
+local.*
