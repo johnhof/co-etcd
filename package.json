@@ -1,5 +1,5 @@
 {
-  "name": "koa-etcd",
+  "name": "co-etcd",
   "version": "1.0.0",
   "description": "Wrapper for node-etcd",
   "main": "lib/CoEtcd",
@@ -9,18 +9,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/johnhof/koa-etcd.git"
+    "url": "git+https://github.com/johnhof/co-etcd.git"
   },
   "keywords": [
     "etcd",
-    "koa"
+    "koa",
+    "co"
   ],
   "author": "John Hofrichter",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/johnhof/koa-etcd/issues"
+    "url": "https://github.com/johnhof/co-etcd/issues"
   },
-  "homepage": "https://github.com/johnhof/koa-etcd#readme",
+  "homepage": "https://github.com/johnhof/co-etcd#readme",
   "dependencies": {
     "lodash": "^3.10.1",
     "node-etcd": "^4.2.1",
