@@ -7,7 +7,7 @@ Co Etcd
 
 A promise/co wrapper for the [node-etcd](https://www.npmjs.com/package/node-etcd) module. All functions from node-etcd are supported, but are converted to return a promise
 
-```javscript
+```javascript
 'use strict';
 
 let CoEtcd = require('co-etcd');
@@ -28,7 +28,7 @@ co(function *() {
 #### Arguments
   - Javascript object in etcd node format
 
-Â#### Returns
+#### Returns
   - Node format converted into a JSON tree object
 
 #### Example
